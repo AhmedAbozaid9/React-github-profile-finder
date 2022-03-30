@@ -14,7 +14,7 @@ export default function SearchBar(props) {
       >
         <input
           type="text"
-          placeholder="Type the profile name, then hit enter"
+          placeholder="Search for a profile name"
           className="bg-primary text-white placeholder:text-gray-300 p-4 text-xl outline-none rounded-md w-full"
           value={name}
           onChange={(e) => setName(e.target.value)}
